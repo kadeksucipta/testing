@@ -1,26 +1,10 @@
-// import logo from './logo.svg';
-import './App.css';
+import TestKomponen from "./test/TestKomponen";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={require('./k3.png')} className="App-logo" alt="logo" />
-        <p>
-          {/* Edit <code>src/App.js</code> and save to reload. */}
-          Kadek Sucipta
-          <br />
-          MERN - Class
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TestKomponen />
     </div>
   );
 }
